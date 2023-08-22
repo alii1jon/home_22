@@ -30,63 +30,63 @@
 - var lastName = "Иванов";
 - var fullName = ${firstName} ${lastName};
 # Строковые методы java-скрипта
-- 1. length - возвращает длину строки.
+- 1.length - возвращает длину строки.
 - Length darozi harf ho ro hisob karda ba mo meguyad va be () ast .
 
 - var myString = "Привет, мир!";
 - console.log(myString.length); // 13
 
-- 2. toUpperCase() - преобразует строку в верхний регистр.
+- 2.toUpperCase() - преобразует строку в верхний регистр.
 - toUpperCase () parametr namegirad tamomi harf hoi khurdi text mo ro ba kalon megardonad .
 
 - var myString = "Привет, мир!";
 - console.log(myString.toUpperCase()); // "ПРИВЕТ, МИР!"
- - 3. toLowerCase() - преобразует строку в нижний регистр.
+ - 3.toLowerCase() - преобразует строку в нижний регистр.
 - toLowerCase () parametr namegirad tamomi harf hoi kaloni text mo ro ba maida megardonad .
 
 - var myString = "Привет, мир!";
 - console.log(myString.toLowerCase()); // "привет, мир!"
 
-- 4. indexOf(substring) - возвращает индекс первого вхождения подстроки в строку. Если подстрока не найдена, возвращает -1.
+- 4.indexOf(substring) - возвращает индекс первого вхождения подстроки в строку. Если подстрока не найдена, возвращает -1.
 - indexOf () 1 dona parametr megirad indexi ki dar parametr menavisem ro ba mo meguyad ki chandum index ast .
 
 - var myString = "Привет, мир!";
 - console.log(myString.indexOf("мир")); // 8
 - console.log(myString.indexOf("здесь")); // -1
  
-- 5. substring(startIndex, endIndex) - возвращает подстроку, начиная с индекса startIndex и заканчивая индексом endIndex - 1
+- 5.substring(startIndex, endIndex) - возвращает подстроку, начиная с индекса startIndex и заканчивая индексом endIndex - 1
 - substring () start , end dorad 2 parametr megirad be parametr kor namekna raqami minusa namegirad .
 
 - var myString = "Привет, мир!";
 - console.log(myString.substring(0, 6)); // "Привет"
 - console.log(myString.substring(7)); // "мир!"
 
-- 6. replace(oldSubstring, newSubstring) - заменяет все вхождения подстроки oldSubstring на подстроку newSubstring.
+- 6.replace(oldSubstring, newSubstring) - заменяет все вхождения подстроки oldSubstring на подстроку newSubstring.
 - replace () 2 ta parametr megirad text khostagi moro alшsh mekunad 1-parametr kalimai ki dar text hast 2-parametr chizi ki mo mekhohem alish shavad va yakum yoftagi ro alish mekunad .
 
 - var myString = "Привет, мир!";
 - console.log(myString.replace("мир", "друг")); // "Привет, друг!"
  
 
- - 7. - replaceAll () monandi replace act amo in metod tamomi text ho ro ki mo mekhohem kofta va tabdil mekunad .
+ - 7.replaceAll () monandi replace act amo in metod tamomi text ho ro ki mo mekhohem kofta va tabdil mekunad .
 
 
-- 8. split(separator) - разбивает строку на массив подстрок, используя разделитель separator.
+- 8.split(separator) - разбивает строку на массив подстрок, используя разделитель separator.
 - split () agar be parametr boshad hamai elementi mo ro yak ta masiv karda medihad [] bo parametr ham kor mekunad .
 
 
 - var myString = "Привет, мир!";
 - console.log(myString.split(", ")); // ["Привет", "мир!"]
 
-- 9. charAt () indexi text ro navista elementi ki indexash durust boshad nishon medihad va raqami minusa namegirad .
-- 10. at () monandi charAt hast neki bo in farq ki in metod raqami minusa megira va kor mekunad .
+- 9.charAt () indexi text ro navista elementi ki indexash durust boshad nishon medihad va raqami minusa namegirad .
+- 10.at () monandi charAt hast neki bo in farq ki in metod raqami minusa megira va kor mekunad .
 
-- 11. tostring () parametr namegira tamomi metod hoi moro ba string megardonad 
-- 12. includes () parametr megira 2 javob dora true , false agar parametri mo da tugri girad true bar megardonad .
-- 13. trim () prabeli lishni ro az 2 tarafi text udalit mekunad . 
-- 14. concat () chan tai ki element boshad ro ba yak digar mechasponad .
-- 15. slice () start , end dorad 2 dona parametr megirad raqami minusa da kor mekunad .
-- 16. repeat () 1,2,3... chand parametri ki navisem ro takror kardan megirad 
+- 11.tostring () parametr namegira tamomi metod hoi moro ba string megardonad 
+- 12.includes () parametr megira 2 javob dora true , false agar parametri mo da tugri girad true bar megardonad .
+- 13.trim () prabeli lishni ro az 2 tarafi text udalit mekunad . 
+- 14.concat () chan tai ki element boshad ro ba yak digar mechasponad .
+- 15.slice () start , end dorad 2 dona parametr megirad raqami minusa da kor mekunad .
+- 16.repeat () 1,2,3... chand parametri ki navisem ro takror kardan megirad 
 
  # Number Methods :
  - Math.round ()  ->  3.87 = 4
