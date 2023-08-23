@@ -99,3 +99,19 @@
 - Math.abc ()    ->  -2 = 2   ,   -5 = 5   ,   -3 = 3
 - Math.random () -> random()*10 = 4.051126874036138
 -  isNaN = javobi ba dast omadagi mo agar NaN boshad true ba mo barmegardonad naboshad false bar megardonad .
+
+# What is Array in Javascript ?
+- Array : kalecsiya hoi ki hama namud znacheni hoyashon hast hato khudi Array .
+ ![Alt text](image.png)
+# Array Methods :
+ ![Alt text](image-1.png)
+ ![Alt text](image-2.png)
+- push () masiv asosi ro alish mekunad az okhir masiv yagon element izofa mekunad .
+- pop () yagon parametr namegira az okhiri masiv element ro udalit mekunad va masiv asosi ro alish mekunad .
+- unshift () az avali masiv element ro izofa mekunad va masivi asosi ro alish mekunad .
+- join () faqat metod array ast monan string ast bo in farq ki in metod parametr megirad va masiv asosi ro alish namekunad .
+- splice () 3ta parametr megira (stard/delet/dabavit) masiv asosi ro alish mekunad .
+- forEach () yakta parametr megira kalbec , kalbeksh 3ta (element,index,arr) va return nadora.
+- map () yakta parametr megira kalbec , kalbeksh 3ta (element,index,arr) masiv asosi ro kor nadora yak masivi nav ba mo medihad .
+- find () yak kalbek megira kalbeksh 3ta (element,index,arr) vobasta ba sharti mo avalin javob ro ba mo barmegardonad .
+- filter () mekobad hamai element hoi ki mo da darkor ast ro yofta ba mo hamasha masivi nav karda medihad . 
